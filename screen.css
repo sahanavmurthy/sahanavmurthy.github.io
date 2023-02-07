@@ -1,0 +1,279 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old IE */
+	width:100%; 
+	background:#fff;
+}
+
+/*==========General Text decorations=================*/
+a {
+	color:#003399;
+	text-decoration: none;
+}
+/* Add a little pointer arrow to every link that takes you offsite (must remember to addd target="_blank" for all such links */
+/*a[href^="http"]{
+padding-right: 12px;
+background: url(images/ext-link.png) no-repeat top right;
+}
+*/
+h1, h2, h3, h4 {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align:left;
+   margin-top: 2px;
+   margin-bottom: 2px;
+}
+p {
+    font-family:arial, sansserif; 
+    font-style:normal; 
+    font-weight:normal; 
+    font-size:11pt; 
+    text-align:left; 
+    margin-right: 10px; 
+    padding: 0;
+}
+.subscript {
+    position: relative;
+    top: 0.3em;
+    font-size: 0.8em;
+}
+.superscript {
+    position: relative;
+    bottom: 0.5em;
+    color: red;
+    font-size: 0.8em;
+}
+img {
+    margin-top: 10px;
+    border-style: none;
+}
+/*==Unordered list becomes spiffier==*/
+ul {
+    list-style-type: circle; 
+    margin-left: 2em;
+    padding-left: 1em;
+/*    text-indent: -0.5em; */
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11pt;
+}
+
+.fontsizesmall   {font-size:small;font-family: Arial,Helvetica,sans-serif}
+.fontsizesmaller {font-size:smaller;font-family: Arial,Helvetica,sans-serif}
+.fontsizexsmall  {font-size:x-small;font-family: Arial,Helvetica,sans-serif}
+.fontsizexxsmall {font-size:xx-small;font-family: Arial,Helvetica,sans-serif}
+.fontsizemedium {font-size:medium;font-family: Arial,Helvetica,sans-serif}
+.fontsizemediumbold {font-size:medium;font-family: Arial,Helvetica,sans-serif; font-weight:bold}
+.fontsizelarge {font-size:large;font-family: Arial,Helvetica,sans-serif}
+.fontsizelarger {font-size:larger;font-family: Arial,Helvetica,sans-serif}
+.fontsizexlarge {font-size:x-large;font-family: Arial,Helvetica,sans-serif}
+.fontsizexxlarge {font-size:xx-large;font-family: Arial,Helvetica,sans-serif}
+
+/*==== Table tricks =============================*/
+
+#table-hover
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	background: #fff;
+	margin: 10px;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#table-hover th
+{
+	font-size: 14px;
+	font-weight: normal;
+/*	color: #039; */
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+	text-align: left;
+}
+#table-hover td
+{
+	border-bottom: 1px solid #ccc;
+/*	color: #669; */
+	padding: 6px 8px;
+	text-align: left;
+}
+#table-hover tbody tr:hover td
+{
+/*	color: #009;*/
+}
+/*=====================================================*/
+
+
+
+/*======3 Column Style=========================================*/
+
+/* Layout is (1%pad-13%content-1%pad)-(2%pad-66%content-2%pad)-(1%pad-13%content-1%content) */
+/*            (LEFT=Column2)------------(CENTER=Column1)-------(RIGHT=Column3) */
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 0 0;
+	overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+    background:#f0f0f0;		/* RIGHT BG */
+}
+.threecol .colmid {
+	right:15%;			/* RIGHT WIDTH */
+	background:#fff;		/* CENTER BG */
+}
+.threecol .colleft {
+    right:70%;			/* CENTER WIDTH */
+    background:#f0f0f0;	        /* LEFT BG */
+	border-right: 1px solid #000000;
+}
+.threecol .col1 {
+	width:66%;			/* CENTER CONTENT WIDTH */
+	left:102%;			
+}
+.threecol .col2 {
+	width:13%;			/* LEFT CONTENT WIDTH */
+	left:21%;			
+}
+.threecol .col3 {
+	width:13%;			/* RIGHT CONTENT WIDTH */
+	left:92%;			
+}
+
+/*============ Header  ========================*/
+
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+p.head
+{
+	margin: 10px 0 0;
+	line-height: 170%;
+	height:100px;
+	background: url(images/YellowGradient_ThinSlice_2x100.jpg) 0% 0% repeat-x;
+}
+/*======Navigation Tabs (Horizontal)===============================*/
+#navtab {
+    width: 85%;
+    float: left;
+    padding-left:14%;
+    margin: 0 auto; 
+    font-family: arial, helvetica, sans-serif;
+/*    font-style: italic; */
+    background-color: #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+#navtab li {
+    float: left;
+    margin: 0;
+    padding: 0.5em 1.35em 0.5em 1.5em;
+    border-right: 1px solid #FFFFFF;
+    list-style: none;
+    display: inline; 
+    text-indent: 0.2em; /* else IE chops first char of text */
+    overflow: none;
+    position: relative;
+}
+#navtab a:link, {
+    float: left;
+    text-decoration: none;
+    color: #003399;
+}
+
+#navtab a.active:link, #navtab a.active:visited {
+    font-weight: bold;
+    border-bottom: 4px solid #003399;
+    color: #003399;
+}
+
+/*======Navigation Tabs (Vertical)===============================*/
+#navtabvert
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    text-align: right;
+    width: 100%;
+    background-color: #F0F0F0;
+    font-family: arial, helvetica, sans-serif;
+    font-style: italic;
+}
+#navtabvert li
+{
+padding-right: 1em;
+margin: 1em 0;
+}
+#navtabvert a:hover {
+    color: #FF0000;
+    border-bottom: 4px solid #FF6666;
+}
+
+/*=====Footer =========================================*/
+
+#footer {
+	clear:both;
+	float:left;
+	width: 99%;
+	padding-top: 2px;
+	padding-right: 20px;
+	border-top: 1px solid #CCCCCC;
+	text-align: right;
+	font-family:arial, sansserif; 
+	font-style: italic; 
+	font-weight:normal; 
+	font-size:8pt; 
+	margin-right: 30px; 
+	margin-top: 15px;
+}
+#footer:after
+{
+    content: 'Last Update July 2020     ';
+}
+
+
+/*============== Poem or quote =========================*/
+#poem { 
+    font-family: Baskerville, "Palatino Linotype", Garamond, Times, serif;
+    padding-right: 20px;
+    text-align: right;
+    white-space:pre;
+}
+#poem poemtitle, author {
+    font-weight: normal;
+    color: #888888;
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 3px;
+}
+#poem poemtitle { text-decoration: underline;}
+#poem poemtext {
+    color: #708090;
+    line-height: 1.2;
+    font-size: small;
+    text-align: right;
+    white-space:pre;
+}
+/*========================================================*/

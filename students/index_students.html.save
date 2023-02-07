@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+
+<head>
+  
+<title> Sahana Murthy, Educational Technology - Interdisciplinary Program at IIT Bombay</title>
+  
+<link rel="stylesheet" type="text/css" href="../screen.css" media="screen" />
+
+</head>
+
+
+
+<body>
+
+
+
+<!=============PAGE HEADER===============================================>
+<p class="head">
+<span class="fontsizexxlarge"><span style="margin-left:17%">Sahana Murthy</span></span><br/>
+<span class="fontsizemediumbold"><span style="margin-left:17%">Professor </span></span><br />
+<span class="fontsizemediumbold"><span style="margin-left:17%">Interdisciplinary Program in Education Technology, IIT Bombay</span></span><br />
+</p>
+
+<ul id="navtab"> 
+	<li><a href="../index.html">Main</a></li> 
+	<li><a href="../research/index_research.html">Research</a></li> 
+	<li><a href="../teaching/index_teaching.html">Teaching</a></li> 
+	<li><a href="../students/index_students.html" class="active">Students</a></li> 
+	<li><a href="../devprojects/index_devprojects.html">Development projects</a></li> 
+	<li><a href="../talks/index_talks.html">Talks&Tutorials</a></li> 
+	<li><a href="../profactivity/index_profactivity.html">Professional activities</a></li>
+</ul>
+
+
+<!=========PAGE BODY====================================================>
+
+
+<div class="colmask threecol">
+  
+	<div class="colmid">
+    
+	<div class="colleft">
+
+
+
+      
+	<div class="col1">
+	
+
+<!=======CENTER MAIN====================================>
+	
+<br>
+<h3> PhD Students </h3>
+	
+	<table id="table-hover" summary="Sample Table">
+    <!- thead is the table header row>
+	<thead>
+    	<tr>
+        	<th scope="col" style="width:25%"><b> Student </b></th>
+        	<th scope="col" style="width:25%"><b> Year </b></th>
+			<th scope="col" ><b> Topic </b> </th>
+		
+        </tr>
+    </thead>
+	<tbody>
+		<tr> 
+        	<td> <a href="			Guide: Prof. Sridhar Iyer </td> 
+" target="blank">Rumana Pathan </br></a> 
+			Guide: Prof. Ramkumar Rajendran </td> 
+		<td>2017-</td>
+		<td> Virtual Reality for science concepts</td>
+        </tr>
+		<tr> 
+        	<td> <a href="http://www.et.iitb.ac.in/~ashutosh" target="blank">Ashutosh Raina </br></a> 
+			Guide: Prof. Sridhar Iyer </td> 
+		<td>2016-</td>
+		<td> TinkTable: A Learning Environment that nurtures tinkering to solve engineering design problems</td>
+        </tr>
+		<tr> 
+        	<td> <a href="http://www.et.iitb.ac.in/~soumya/soumya.htm" target="blank">Soumya N.</a> </td> 
+		<td>2015-</td>
+		<td> A TEL environment for divergent and convergent thinking skills in engineering design </td>
+        </tr>
+		<tr> 
+        	<td> <a href="http://et.iitb.ac.in/~anurag/" target="blank"> Anurag Deep </a> <br> Guide: Prof. P. J. Bhat</td> 
+		<td>2014-</td>
+		<td> Technology-enhanced learning environment for developing hypothetico-deductive reasoning in genetics</td>
+        </tr>
+			
+		<tr> 
+        	<td> <a href="http://www.et.iitb.ac.in/~aditi/doku.php" target="blank">Aditi Kothiyal</a></td> 
+		<td>2013-</td>
+		<td> A model to understand and scaﬀold novices in estimation problem solving using a technology-enhanced learning environment (Thesis submitted February 2019)</td>
+        </tr>
+		<tr> 
+        	<td> <a href="http://mail2jkmadathil.wix.com/home" target="blank">Dr. Jayakrishnan Warriem <br></a> 
+			Co-guide: Prof. Sridhar Iyer </td>
+		<td>2012-2018 <br> Current position: Senior Scientist, NPTEL, IIT Madras </td>
+		<td> <i>Thesis:</i>  <a href="JK-thesis.pdf"> A model for large-scale, in-service teacher training on effective technology integration in engineering education </a></br> <i> <a href="JK-presentation"> Defense presentation </a></i>(April 2018) </td>
+        </tr>
+		<tr> 
+        	<td> <a href="https://sites.google.com/site/kenkreanura/" "target="blank">Dr. Anura Kenkre</a></td>
+		<td>2011-2017 <br> Current position: Instructional Designer, Accenture </td>
+		<td> <i>Thesis:</i>  <a href="anura-thesis.pdf"> MIC-O-MAP: A Technology Enhanced Learning Environment for Developing Micro-Macro Thinking Skills in Analog Electronics </a></br> <i> <a href="anura-presentation"> Defense presentation </a></i>(November 2017)
+		</td>
+        </tr>
+		<tr> 
+        	<td> <a href="http://www.et.iitb.ac.in/~gargi/" target="blank">Dr. Gargi Banerjee</a></td> 
+		<td>2011-2017 <br> Current position: Research Scientist, IIT Bombay</td>
+		<td> <i>Thesis:</i>  <a href="gargi-thesis.pdf"> Framework for enabling instructors to create effective customized learning designs with visualizations (CuVIS) </a> <br>
+				<i> <a href="gargi-presentation"> Defense presentation </a></i>(January 2017)</td>
+        </tr>       
+		<tr> 
+        	<td> <a href="http://et.iitb.ac.in/~mrinal/" target="blank">Dr. Mrinal Patwardhan</a></td> 
+		<td>2011-2017 <br> Current position: Coordinator, IIT Bombay </td>
+		<td>  <i>Thesis:</i> <a href="mrinal-thesis.pdf">Determining Interactivity Enriching Features for Effective Interactive Learning Environments </a> <br>	
+		<i> <a href="mrinal-presentation.pdf"> Defense presentation </a></i>(December 2016)</td>
+        </tr>
+
+    	<tr> 
+        	<td> <a href="http://et.iitb.ac.in/~madhuri/index.html" target="blank">Dr. Madhuri Mavinkurve</a></td> 
+			<td>2010-2016 <br> Current position: Associate Professor, Thakur College, Mumbai </td>
+			<td>  <i>Thesis:</i>  <a href="madhuri-thesis.pdf"> Development and assessment of engineering design competencies using 
+				technology enhanced learning environment  </a> <br>
+				<i> <a href="madhuri-presentation.pdf">Defense presentation </a></i> (January 2016) </td>
+		
+		<tr> <! Each table row is enclosed by tr .. /tr>
+        	<td> <a href="https://www.cse.iitb.ac.in/~ramkumar/" target="blank">Dr. Ramkumar Rajendran</a> 
+			<br> Guide: Prof. Sridhar Iyer </td> <! each cell data is between td .. /td>
+			<td>2010-2014 <br> Current postion: Assistant Professor, IIT Bombay </td>
+			<td> <i>Thesis:</i> <a href="ramkumar-thesis.pdf">  Enriching Student Model in an Intelligent Tutoring System </a> <br>
+			<i> <a href="ramkumar-presentation.pdf">Defense presentation </a></i> (July 2014)</td>
+		</tr>
+		
+		<tr> 
+        	<td> <a href="http://www.it.iitb.ac.in/~s1000brains/" target="blank">Dr. Sameer Sahasrabudhe</a> 
+			<br> Guide: Prof. Sridhar Iyer </td> 
+			<td>2009-2015 <br> Current position: Senior Research Scientist, IIT Bombay 	</td>
+			<td> <i>Thesis:</i> <a href="https://www.cse.iitb.ac.in/~sri/students/samss-thesis.pdf">  Design considerations for creating eLearning visualizations </a> <br>
+			<i> <a href="https://www.cse.iitb.ac.in/~sri/students/samss-slides.pdf">Defense presentation </a></i> (September 2015)</td>
+		</tr>
+		
+ 	 </tbody>
+	</table>
+
+
+
+<br>
+<h3> Resources for PhD students </h3>
+<p>
+Research resources for ET PhD students are under <a href="../devprojects/index_devprojects.html">  Development Projects. </a> Also useful may be resources posted under <a href=../talks/index_talks.html> Talks/Tutorials.</a>
+</p>
+    
+	  
+<!======END CENTER MAIN===============================>
+	  </div>
+	
+	
+
+	<div class="col2">
+	  <!========LEFT===============>
+	  <!=note that we must put *some* content here to get css magic to work=>
+	  <!=put a space if nothing else - silly no=>
+	  &nbsp;
+	  
+	  
+	</div>
+	
+	<div class="col3">
+	  <!========RIGHT================>
+	  <a href="http://www.iitb.ac.in" target="_blank">
+	    <img alt="IITBLogo" src="../images/iitb_logo.png" width=110px></a> 
+	    
+	    <p>
+	      <span class="fontsizesmaller">
+		<em>Contact:</em><br/>		 
+		<a href="http://www.et.iitb.ac.in" target="_blank">IDP in Educational Technology</a><br/>
+		CDEEP Maths Building Ground Floor<br/>
+		IIT Bombay<br/>
+		Powai, Mumbai 400 076<br/>
+		Tel: +91-22-25764860<br/>
+		Fax: +91-22-25764812<br/>
+		Email: sahanamurthy[at]iitb.ac.in
+	      </span>
+	    </p>
+	  </div>
+
+
+	</div>
+      </div>
+    </div>
+    
+    <!=======================================================================>
+    
+    <div id="footer">
+    </div>
+    
+  </body>
+</html>
